@@ -1,1 +1,1 @@
-This is the repository for Salesforce Developer Org
+This is the repository for Salesforce Developer Organization.
