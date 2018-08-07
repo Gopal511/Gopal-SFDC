@@ -1,0 +1,5 @@
+Hello, New Position is available. Upload resumes if you want.
+Minimum Pay- 7000
+Maximum Pay-9000
+Position Title:{!Position__c.Name}
+Job Status:{!Position__c.Status__c}

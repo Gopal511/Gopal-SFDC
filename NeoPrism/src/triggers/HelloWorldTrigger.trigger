@@ -1,0 +1,6 @@
+trigger HelloWorldTrigger on Account (before insert) {
+    for(Account a : Trigger.new){
+        a.Description='New Description';
+        a.Time_In_Years__c=2;
+    }
+}

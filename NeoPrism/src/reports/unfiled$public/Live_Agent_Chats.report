@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LiveChatTranscript$Name</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$Browser</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$IpAddress</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$Location</field>
+    </columns>
+    <currency>USD</currency>
+    <format>Tabular</format>
+    <name>Live Agent Chats</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Live_Agent_Chats__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>LiveChatTranscript$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

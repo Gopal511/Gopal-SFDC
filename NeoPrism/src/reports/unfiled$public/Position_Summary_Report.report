@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Position__c.Status__c</field>
+    </columns>
+    <columns>
+        <field>Position__c.Max_Pay__c</field>
+    </columns>
+    <columns>
+        <field>Position__c.Min_Pay__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Position Summary Report</description>
+    <format>Summary</format>
+    <name>Position Summary Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Position__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>Position__c.Max_Pay__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Position__c.Close_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>
